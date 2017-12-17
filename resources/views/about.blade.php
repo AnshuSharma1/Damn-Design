@@ -45,5 +45,81 @@
 	</div>
 </div>
 
+<div id="second" style="margin-bottom: 100px; ">
+	<div class="row">
+		<div style="margin-left: -60px; ">
+			<div class="col-md-3 col-md-offset-2 text-right">
+				<img src="{{ asset('images/work1.jpg') }}" alt="New York" width="80%">
+			</div>
+			<div class="col-md-3 text-left">
+				<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="80%" style="padding-left: 12px;">
+			</div>
+			<div class="col-md-3">
+				<img src="{{ asset('images/work3.jpeg') }}" alt="New York" width="80%" style="margin-left: -57px;">
+			</div>
+			<div class="col-md-3 col-md-offset-2 text-right" style="margin-top: -70px;">
+				<img src="{{ asset('images/r1.jpeg') }}" alt="New York" width="80%">
+			</div>
+			<div class="col-md-3 text-left" style="margin-top: 10px;">
+				<img src="{{ asset('images/r4.jpeg') }}" alt="New York" width="80%" style="padding-left: 12px;">
+			</div>
+			<div class="col-md-3" style="margin-top: -70px;">
+				<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="80%" style="margin-left: -57px;">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="text-center three" style="padding: 70px 40px 70px 40px; margin-top: 50px;  background-color:#2a2a30;">
+		<span style="font-size: 35px; font-family: 'Bungee';letter-spacing: 2px; color: white;">
+		Our Story
+		</span>
+		<div style="color: #fff7f7; font-family: 'Nunito'; padding: 35px 17%;margin-bottom: 20px; font-size: 15px; letter-spacing: 1px;" class="text-left">
+			Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum. Dolorem eum fugiat quo voluptas nulla pariatur.
+			<br><br>
+			Dolorem eum fugiat quo voluptas nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum. Dolorem eum fugiat quo voluptas nulla pariatur at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+			<br><br>
+			Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+			<div style="font-size: 16px; font-weight: bold; margin-top: 50px; color:  yellow;" class="text-center">
+			"Consequatur vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
+			</div>
+		</div>
+</div>
+
+<div class="row fourth" style="padding: 50px 100px 80px 100px;">
+	<h2 style="font-family: 'Bungee'; letter-spacing: 2px; font-size: 30px;  color: #af133f; ">THE TEAM</h2>
+	<div class="text-center" style=" margin-bottom:50px; color: black; font-family: 'Nunito'; letter-spacing: 1px; font-size: 16px; margin-top: 20px; margin-bottom: 70px; ">
+	Consequatur vel illum qui dolorem eum fugiat quo
+	</div>
+	<div style="margin-left: 15%; ">
+		<div class="col-md-3" >
+			<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="90%" style=" border-radius: 5px;">
+			<br>
+			<div style="margin-top: 30px; padding-left: 10px; color: black; font-family: 'Nunito';" class="text-center">
+				<h4 style="font-weight: bold;">LOREM IPSUM</h4>
+				<span>Principal & Chief Creative Officer</span>
+			</div>
+		</div>
+		<div class="col-md-3" style="margin: auto 50px;">
+			<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="90%" style=" border-radius: 5px;" >
+			<br>
+			<div style="margin-top: 30px; padding-left: 10px; color: black; font-family: 'Nunito';" class="text-center">
+				<h4 style="font-weight: bold;">LOREM IPSUM</h4>
+				<span>Principal & Chief Creative Officer</span>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="90%" style=" border-radius: 5px;">
+			<br>
+			<div style="margin-top: 30px; padding-left: 10px; color: black; font-family: 'Nunito';" class="text-center">
+				<h4 style="font-weight: bold;">LOREM IPSUM</h4>
+				<span>Principal & Chief Creative Officer</span>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
 
 @endsection
