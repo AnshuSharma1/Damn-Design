@@ -52,7 +52,6 @@
                 text-shadow: none;
             }
             
-            @yield('Style')
 
             .footer-distributed{
                 background-color: #292c2f;
@@ -243,6 +242,8 @@
                     }
                 
                 }
+
+            @yield('Style')
         </style>
     </head>
     <body class="container-fluid" style="padding-top: 63px;">
