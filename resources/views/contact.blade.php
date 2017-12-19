@@ -11,7 +11,7 @@
 
     .first{
     margin-top: 50px;
-    padding: 30px 15%;
+    padding: 30px 15% 70px 15%;
     color: black;
 	}
 
@@ -28,7 +28,11 @@
 	color: black;
 	}
 
-
+	.second{
+	padding: 70px;
+	background-color: #e5e5e5;
+	color: black;
+	}
 @endsection
 
 @section('content')
@@ -85,7 +89,34 @@
 			</div>
 		</div>
 	</div>
-
+</div>
+<div class="second text-center">
+	<div  style="font-size: 25px; font-family: 'Exo'; letter-spacing: 1px;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	</div>
+	<div style="margin-top:30px; padding: 0 25%; font-family: 'Nunito'; font-size: 15px;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+	</div>
+	<hr style="border-color: black; border-width: 2px; width: 8%; margin: 40px auto; ">
+	<div style="padding: 10px 20%;">
+		<div class="row">
+			<div class="col-md-4">
+				<input type="text" name="name" placeholder="Your Name" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555; " required>
+			</div>
+			<div class="col-md-4">
+				<input type="text" name="email" placeholder="Your Email" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;" required>
+			</div>
+			<div class="col-md-4">
+				<input type="number" name="number" placeholder="Your Phone No" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;">
+			</div>
+		</div>
+		<div class="text-left" style="padding:0  20px; margin-top: 20px; ">
+			<textarea name="text" style="border-radius: 5px; border-color: #555; padding: 10pX;" rows="10" class="form-control">Your purpose
+			</textarea>
+		</div>
+		<button type="submit" class="btn btn-success" style="margin-top: 30px; padding: 10px 40px;">Submit</button>
+	</div>
+	
 </div>
 @endsection
 
