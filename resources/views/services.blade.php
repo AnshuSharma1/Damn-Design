@@ -56,7 +56,7 @@
 		</div>
 	</div>
 </div>
-<div class="third" style="background-color: #343451; color: white; padding: 60px 100px 130px 100px; font-family: 'Nunito';">
+<div class="third" style="background-color: #343451; color: white; padding: 60px 100px 60px 100px; font-family: 'Nunito';">
 	<div class="row text-center" style="opacity: 0.9;">
 		<div style="font-size: 18px; font-weight: bold; color:  yellow; margin-bottom: 100px;letter-spacing: 1px;" class="text-center">
 			Consequatur vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
@@ -86,6 +86,7 @@
 			</div>
 		</div>
 	</div>
+		<hr style="border-color: yellow; border-width: 2px; border-radius: 5px; width: 8%;margin-top: 6%; ">
 </div>
 <div class="second text-center" style="padding: 30px;color: black; ">
 	<h3 style="margin: 30px auto 30px auto; letter-spacing: 2px; font-size: 30px; font-family: 'calibri';">OUR SERVICES</h3>

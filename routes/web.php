@@ -27,6 +27,10 @@ Route::get('/brands', function () {
     return view('brands');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/contact', 'ContactController@index');
+
+Route::post('/contact', 'ContactController@create');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

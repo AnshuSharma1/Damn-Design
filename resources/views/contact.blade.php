@@ -36,6 +36,11 @@
 @endsection
 
 @section('content')
+@if (Request::isMethod('post'))
+        <h3 class="text-center alert alert-success">
+           {{ $done }}
+        </h3>
+@endif
 <div id="jumbo" class="text-center" style="padding: 80px 50px 265px 50px; color: black; font-family: 'Nunito';">
     <div style="font-size: 35px;">Lorem Ipsum Dolor</div>
     <div style="margin-top: 30px; font-size: 16px; padding: 5px 25%;">
@@ -97,24 +102,27 @@
 	<div style="margin-top:30px; padding: 0 25%; font-family: 'Nunito'; font-size: 15px;">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 	</div>
-	<hr style="border-color: black; border-width: 2px; width: 8%; margin: 40px auto; ">
+	<hr style="border-color: #2ab27b; border-width: 2px; width: 8%; margin: 30px auto; ">
 	<div style="padding: 10px 20%;">
-		<div class="row">
-			<div class="col-md-4">
-				<input type="text" name="name" placeholder="Your Name" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555; " required>
+		<form method="POST" action="/contact" >
+			{{ csrf_field() }}
+			<div class="row">
+				<div class="col-md-4">
+					<input type="text" name="name" placeholder="Your Name" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555; " required>
+				</div>
+				<div class="col-md-4">
+					<input type="text" name="email" placeholder="Your Email" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;" required>
+				</div>
+				<div class="col-md-4">
+					<input type="number" name="phone" placeholder="Your Phone No" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;">
+				</div>
 			</div>
-			<div class="col-md-4">
-				<input type="text" name="email" placeholder="Your Email" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;" required>
+			<div class="text-left" style="padding:0  20px; margin-top: 20px; ">
+				<textarea name="text" style="border-radius: 5px; border-color: #555; padding: 10pX; color: black;" rows="10" class="form-control">Your purpose
+				</textarea>
 			</div>
-			<div class="col-md-4">
-				<input type="number" name="number" placeholder="Your Phone No" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;">
-			</div>
-		</div>
-		<div class="text-left" style="padding:0  20px; margin-top: 20px; ">
-			<textarea name="text" style="border-radius: 5px; border-color: #555; padding: 10pX;" rows="10" class="form-control">Your purpose
-			</textarea>
-		</div>
-		<button type="submit" class="btn btn-success" style="margin-top: 30px; padding: 10px 40px;">Submit</button>
+			<button type="submit" class="btn btn-success" style="margin-top: 30px; padding: 10px 40px;">Submit</button>
+		</form>
 	</div>
 	
 </div>
