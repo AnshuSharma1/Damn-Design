@@ -33,6 +33,9 @@
 	background-color: #e5e5e5;
 	color: black;
 	}
+	.form-control::-webkit-input-placeholder {
+	    color: black;
+	}
 @endsection
 
 @section('content')
@@ -107,14 +110,14 @@
 		<form method="POST" action="/contact" >
 			{{ csrf_field() }}
 			<div class="row">
-				<div class="col-md-4">
-					<input type="text" name="name" placeholder="Your Name" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555; " required>
+				<div class="col-md-4" style="padding: 0 20px;">
+					<input type="text" name="name" placeholder="Your Name" style="padding:24px ; text-align: center; color: black; border-radius: 5px; border-color: #555; " required class="form-control">
 				</div>
-				<div class="col-md-4">
-					<input type="text" name="email" placeholder="Your Email" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;" required>
+				<div class="col-md-4" style="padding: 0 20px;">
+					<input type="text" name="email" placeholder="Your Email" style="padding:24px ; text-align: center; color: black; border-radius: 5px; border-color: #555; " required class="form-control">
 				</div>
-				<div class="col-md-4">
-					<input type="number" name="phone" placeholder="Your Phone No" style="padding:10px ; text-align: center; color: black; font-size: larger; border-radius: 5px; border-color: #555;">
+				<div class="col-md-4" style="padding: 0 20px;">
+					<input type="number" name="phone" placeholder="Your Phone No" style="padding:24px ; text-align: center; color: black; border-radius: 5px; border-color: #555; " required class="form-control">
 				</div>
 			</div>
 			<div class="text-left" style="padding:0  20px; margin-top: 20px; ">

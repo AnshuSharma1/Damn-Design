@@ -2,75 +2,75 @@
 
 @section('Style')
 	#jumbo {
-    background: url("{{ asset('images/work5.jpeg') }}") no-repeat center center fixed;
+    background: url("{{ asset('images/work7.jpg') }}") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity:0.84;
-    height: 100%;
+    }
+
+  	.second{
+  	padding: 50px 100px 100px 100px;
+  	background-color: white;
+    }
+
+    .second .col-md-6{
+    padding: 0px 5px;
+    }
+  
+    .second img{
+    border-radius: 3px;
     }
 
 @endsection
 
 @section('content')
-<div id="jumbo" style="padding: 130px 60px 200px 60px;color: white;  font-family: 'Dosis', sans-serif; font-size: larger;" class="text-center">
-        <div class="row">
-        	<div class="col-md-3 text-left">
-        		<h3 style="font-size: 35px; font-family: 'Raleway', sans-serif; font-weight: bold; letter-spacing: 2px;">Lorem Ipsum Dolor</h3>
-        		<div style="margin-top: 30px; color: #ffe5f3; letter-spacing: 1px;">
-        			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        			<br><br>
-        			 Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        		</div>
-        	</div>
-        </div>
-</div>
-<div id="first" class="row text-center" style="padding: 50px 50px 80px 50px;">
-	<div class="col-md-8 col-md-offset-2">
-		<h3 style="font-family: 'Dosis'; color: black; font-size: 35px;">
-			Perspiciatis unde,&nbsp omnis-iste natus
-		</h3>
-		<hr style="width: 10%; border-color: #FF5D5F; border-width: 2px; margin: 30px auto;">
-		<div style="color: black; font-family: 'Nunito'; padding: 0 100px;margin-bottom: 20px; font-size: 15px;">
-			Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.
-		</div>
-		<div style="color: #353434;font-size: 17px; font-weight: bold; font-style: italic; margin-bottom: 20px;">
-			"Consequatur vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
-		</div>
-		<br>
-		<a href="#" style="padding: 18px 40px; background-color: #FF5D5F; color: white; border-radius: 50px; font-size: 16px; font-weight: bold; letter-spacing: 2px;">
+<div id="jumbo" class="text-center" style="padding: 80px 50px 265px 50px; color: black; font-family: 'Nunito';">
+    <div style="font-size: 35px;">Lorem Ipsum Dolor</div>
+    <div style="margin-top: 30px; font-size: 16px; padding: 5px 25%;">
+    	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+    	<br>
+    	<a href="#" style="padding: 18px 40px; color: black; font-size: 15px; font-weight: bold; letter-spacing: 2px; border: 1px black solid; display: inline-block; margin-top: 50px;">
 			CLICK HERE
 		</a>
-	</div>
+    </div>
 </div>
 
-<div id="second" style="margin-bottom: 100px; ">
-	<div class="row">
-		<div style="margin-left: -60px; ">
-			<div class="col-md-3 col-md-offset-2 text-right">
-				<img src="{{ asset('images/work1.jpg') }}" alt="New York" width="80%">
+<div class="second text-center">
+	<div style=" font-family: 'Bungee'; font-size:30px; color: #FF5D5F; margin-bottom: 20px;">Lorem Ipsum Dolor</div>
+	<div style="margin-bottom: 50px; font-size: 16px; font-family: 'Nunito';">Sed ut perspiciatis unde omnis iste natus error . .</div>
+		<div class="row" style="padding: 0 50px;">
+			<div class="col-md-6" style="padding: 0 70px 0 0;">
+  			<div class="row">
+        		<div class="col-md-6">
+          			<img src="{{ asset('images/work1.jpg') }}" alt="New York" width="100%">
+        		</div>
+        		<div class="col-md-6">
+          			<img src="{{ asset('images/work2.jpeg') }}" alt="New York" width="100%">
+        		</div>
+	        </div>
+	      	<div class="row" style=" margin-top: 10px;">
+	       		<div class="col-md-6">
+	          		<img src="{{ asset('images/janko-ferlic-184527.jpg') }}" alt="New York" width="100%">
+	        	</div>
+	        	<div class="col-md-6">
+	          		<img src="{{ asset('images/pot.jpg') }}" alt="New York" width="100%">
+	        	</div>
+		    </div>
 			</div>
-			<div class="col-md-3 text-left">
-				<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="80%" style="padding-left: 12px;">
-			</div>
-			<div class="col-md-3">
-				<img src="{{ asset('images/work3.jpeg') }}" alt="New York" width="80%" style="margin-left: -57px;">
-			</div>
-			<div class="col-md-3 col-md-offset-2 text-right" style="margin-top: -70px;">
-				<img src="{{ asset('images/r1.jpeg') }}" alt="New York" width="80%">
-			</div>
-			<div class="col-md-3 text-left" style="margin-top: 10px;">
-				<img src="{{ asset('images/r4.jpeg') }}" alt="New York" width="80%" style="padding-left: 12px;">
-			</div>
-			<div class="col-md-3" style="margin-top: -70px;">
-				<img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="80%" style="margin-left: -57px;">
+
+			<div class="col-md-6 text-left" style="font-family: 'Nunito'; padding-right: 80px; padding-top: 10px; font-size: 16px;">
+				Sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<br><br>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<br><br>
+				Sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</div>
 		</div>
-	</div>
 </div>
 
-<div class="text-center three" style="padding: 70px 40px 70px 40px; margin-top: 50px;  background-color:#2a2a30;">
+
+<div class="text-center three" style="padding: 70px 40px 70px 40px; background-color:#2a2a30;">
 		<span style="font-size: 35px; font-family: 'Bungee';letter-spacing: 2px; color: white;">
 		Our Story
 		</span>

@@ -19,23 +19,6 @@
     	margin-right: 3%;
     	line-height: 27px;
 	}
-
-	.first{
-		padding: 70px 100px 100px 100px;
-		background-color: #ededed;
-	}	
-	.col-md-3{
-	padding: 0 5px;
-	}
-	
-	.first img{
-	border-radius: 3px;
-	}
-
-	.third{
-	padding: 50px;
-	background-color: white;
-	}
 @endsection
 
 @section('content')
@@ -92,37 +75,6 @@
 		</div>
 	</div>
 </div>
-<div class="first">
-	<h3 class="text-center" style="margin-top: 0; color: black; font-family: 'Nunito';">Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
-	<hr style="width: 10%; border-color: black; margin: 40px auto 50px auto;">
-	<div class="row">
-		<div class="col-md-3">
-			<img src="{{ asset('images/work1.jpg') }}" alt="New York" width="100%">
-		</div>
-		<div class="col-md-3">
-			<img src="{{ asset('images/work2.jpeg') }}" alt="New York" width="100%">
-		</div>
-		<div class="col-md-3">
-			<img src="{{ asset('images/work3.jpeg') }}" alt="New York" width="100%">
-		</div>
-		<div class="col-md-3">
-			<img src="{{ asset('images/work5.jpeg') }}" alt="New York" width="100%">
-		</div>
-	</div>
-	<div class="row" style=" margin-top: 10px;">
-		<div class="col-md-3">
-			<img src="{{ asset('images/janko-ferlic-184527.jpg') }}" alt="New York" width="100%">
-		</div>
-		<div class="col-md-3">
-			<img src="{{ asset('images/pot.jpg') }}" alt="New York" width="100%">
-		</div>
-		<div class="col-md-3">
-			<img src="{{ asset('images/r4.jpeg') }}" alt="New York" width="100%">
-		</div>
-		<div class="col-md-3">
-			<img src="{{ asset('images/corinne-kutz-211251.jpg') }}" alt="New York" width="100%">
-		</div>
-	</div>
-</div>	
+	
 
 @endsection
