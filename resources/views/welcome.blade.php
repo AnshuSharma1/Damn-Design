@@ -11,22 +11,12 @@
     height: 100%;
     }
 
-  #head2{
-      font-family: Impact ; 
-      color: #555555;
-      font-size: 36px;
-      letter-spacing: 4px; 
-  }
 
-  #myCarousel2{
-      background: #1b1c1c;
-      color: white; 
-      padding: 100px 0;
-      font-family: 'Nunito';
-      letter-spacing: 1px;
-      font-size: larger;
+
+    .third{
+    background-color: white;
+    padding: 50px 15% 70px 15%;
     }
-
     
 @endsection
 
@@ -89,66 +79,70 @@
 </div>
 
 <div class="third">
+  <div class="text-center" style="font-size: 25px; margin: 15px 0 40px 0; color: #1d2649; letter-spacing: 1px; font-family: 'Nunito';">Consectetur adipiscing elit</div>
+    <hr style="width: 5%; border-color: black; border-width: 2px; margin: 30px auto;">
   <div class="row">
-    <div class="col-md-6">
-      
+    <div class="col-md-5">
+      <div style="font-size: 25px; text-align: center; font-family: 'Exo'; margin: 20px 0; color: #FF5D5F;">
+        Lorem Ipsum
+      </div>
+      <div style="font-family: 'Nunito'; font-size: 16px;line-height: 25px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <br>
+        <span style="display: inline-block; margin-top: 40px; padding-left: 25%;font-size: 17px; font-weight: bold; letter-spacing: 1px; ">
+        Dolor Amet consectetur
+        </span>
+      </div>
     </div>
-    <div class="col-md-6">
-      
+    <div class="col-md-2 text-center" style="padding-top: 80px;">
+      <img src="{{ asset('images/line.png') }}" alt="New York" width="3.1%">
+    </div>
+    <div class="col-md-5">
+      <div style="font-size: 25px; text-align: center; font-family: 'Exo'; margin: 20px 0; color: #FF5D5F;">
+        Dolor Amey
+      </div>
+      <div style="font-family: 'Nunito'; font-size: 16px;line-height: 25px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <br>
+        <span style="display: inline-block; margin-top: 40px; padding-left: 25%;font-size: 17px; font-weight: bold; letter-spacing: 1px; ">
+        Dolor Amet consectetur
+        </span>
+      </div>
     </div>
   </div>
 </div>
 
-<div>
-  <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel2" data-slide-to="1"></li>
-      <li data-target="#myCarousel2" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner row text-center" >
-      <div class="item active">
-        <div class="col-md-8 col-md-offset-2 text-left" style="padding: 0 20px;">
-            “I have been extremely pleased with the service that Oyster provides. I was impressed by their ability to manage complex processes within limited time, without compromising the quality of the deliverable.”
-            <div style="margin-top: 30px;color: #D8EDF3">Soria Bendoumia, Marketing Communications Manager, GE</div>
-            <hr style="width: 57%;" class="pull-left">
-        </div>
+<div class="fourth" style="padding: 70px;">
+  <div class="text-center" style="font-size: 25px; margin: 0px 0 60px 0; color: #1d2649; letter-spacing: 0.5px; font-family: 'calibri'; font-style: italic;">Consectetur adipiscing elit quo voluptas</div>
+  <div class="row" style="color: black;">
+    <div class="col-md-4 text-center">
+      <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="50%" style="border-radius: 5px;">
+      <br>
+      <div style="margin-top: 30px; font-family: 'Nunito'; font-size: 16px; letter-spacing: 0.5px; padding: 7px 20%;">
+        “I have been extremely pleased with the service that the company provides."
       </div>
-
-      <div class="item ">
-        <div class="col-md-8 col-md-offset-2 text-left" style="padding: 0 20px;">
-            “I have been extremely pleased with the service that Oyster provides. I was impressed by their ability to manage complex processes within limited time, without compromising the quality of the deliverable.”
-            <div style="margin-top: 30px;color: #D8EDF3">Soria Bendoumia, Marketing Communications Manager, GE</div>
-            <hr style="width: 57%;" class="pull-left">
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="col-md-8 col-md-offset-2 text-left" style="padding: 0 20px;">
-            “I have been extremely pleased with the service that Oyster provides. I was impressed by their ability to manage complex processes within limited time, without compromising the quality of the deliverable.”
-            <div style="margin-top: 30px;color: #D8EDF3">Soria Bendoumia, Marketing Communications Manager, GE</div>
-            <hr style="width: 57%;" class="pull-left">
-        </div>
-      </div>
-
     </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
-      <span  class="caro">
-      <i class="fa fa-chevron-left chevron" aria-hidden="true"></i>
-      <span class="sr-only" >Previous</span>
-      </span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel2" data-slide="next">
-      <span class="caro">
-      <i class="fa fa-chevron-right chevron" aria-hidden="true"></i>
-      <span class="sr-only">Next</span>
-      </span>
-    </a>
+    <div class="col-md-4 text-center">
+      <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="50%" style="border-radius: 5px;">
+      <br>
+      <div style="margin-top: 30px; font-family: 'Nunito'; font-size: 16px; letter-spacing: 0.5px; padding: 7px 20%;">
+        “I have been extremely pleased with the service that the company provides."
+      </div>
+    </div>
+
+    <div class="col-md-4 text-center">
+      <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="50%" style="border-radius: 5px;">
+      <br>
+      <div style="margin-top: 30px; font-family: 'Nunito'; font-size: 16px; letter-spacing: 0.5px; padding: 7px 20%;">
+        “I have been extremely pleased with the service that the company provides."
+      </div>
+    </div>
+
   </div>
+  
 </div>
+
+
 @endsection
