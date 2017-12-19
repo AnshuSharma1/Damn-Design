@@ -11,13 +11,10 @@
     height: 100%;
     }
 
-
-
     .third{
     background-color: white;
-    padding: 50px 15% 70px 15%;
     }
-    
+   
 @endsection
 
 @section('content')
@@ -78,40 +75,27 @@
   </div>
 </div>
 
-<div class="third">
-  <div class="text-center" style="font-size: 25px; margin: 15px 0 40px 0; color: #1d2649; letter-spacing: 1px; font-family: 'Nunito';">Consectetur adipiscing elit</div>
-    <hr style="width: 5%; border-color: black; border-width: 2px; margin: 30px auto;">
+
+<div class="third text-center" style=" padding: 60px 50px 0 50px;">
   <div class="row">
-    <div class="col-md-5">
-      <div style="font-size: 25px; text-align: center; font-family: 'Exo'; margin: 20px 0; color: #FF5D5F;">
-        Lorem Ipsum
-      </div>
-      <div style="font-family: 'Nunito'; font-size: 16px;line-height: 25px;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        <br>
-        <span style="display: inline-block; margin-top: 40px; padding-left: 25%;font-size: 17px; font-weight: bold; letter-spacing: 1px; ">
-        Dolor Amet consectetur
-        </span>
-      </div>
+    <div class="col-md-6" style="padding: 30px 0 50px 50px;">
+      <img src="{{ asset('images/work6.jpeg') }}" alt="New York" width="80%" style="border-radius: 5px;">
     </div>
-    <div class="col-md-2 text-center" style="padding-top: 80px;">
-      <img src="{{ asset('images/line.png') }}" alt="New York" width="3.1%">
-    </div>
-    <div class="col-md-5">
-      <div style="font-size: 25px; text-align: center; font-family: 'Exo'; margin: 20px 0; color: #FF5D5F;">
-        Dolor Amey
-      </div>
-      <div style="font-family: 'Nunito'; font-size: 16px;line-height: 25px;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        <br>
-        <span style="display: inline-block; margin-top: 40px; padding-left: 25%;font-size: 17px; font-weight: bold; letter-spacing: 1px; ">
-        Dolor Amet consectetur
-        </span>
-      </div>
+    <div class="col-md-6 text-left" style="padding:20px 40px 0 40px; color: #555; font-family: 'Nunito';">
+      <h2>Lorem Ipsum Dolor Amet</h2>
+        <hr style="border-color: #555; border-width: 3px; border-radius: 3px; width: 8%; margin: 35px 0;">
+        <div style="padding-right: 60px; font-size: 15px; letter-spacing: 0px; line-height: 27px; ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          <br><br>
+          Voluptate velit esse cillum dolore eu fugiat nulla pariatur nulla pariatur.
+        </div>
+        <a href="#" style="padding: 18px 40px; color: black; font-size: 15px; font-weight: bold; letter-spacing: 2px; border: 1px black solid; display: inline-block; margin-top: 50px;">
+      CLICK HERE
+      </a>
     </div>
   </div>
 </div>
+
 
 <div class="fourth" style="padding: 70px;">
   <div class="text-center" style="font-size: 25px; margin: 0px 0 60px 0; color: #1d2649; letter-spacing: 0.5px; font-family: 'calibri'; font-style: italic;">Consectetur adipiscing elit quo voluptas</div>
@@ -139,9 +123,7 @@
         “I have been extremely pleased with the service that the company provides."
       </div>
     </div>
-
   </div>
-  
 </div>
 
 
