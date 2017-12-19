@@ -56,8 +56,40 @@
 		</div>
 	</div>
 </div>
-<div class="second text-center" style="padding: 30px;color: black; background-color: #ededed;">
-	<h3 style="margin: 30px auto 60px auto; font-weight: bold; letter-spacing: 2px; font-size: 30px; font-family: 'Exo';">Our Services</h3>
+<div class="third" style="background-color: #343451; color: white; padding: 60px 100px 130px 100px; font-family: 'Nunito';">
+	<div class="row text-center" style="opacity: 0.9;">
+		<div style="font-size: 18px; font-weight: bold; color:  yellow; margin-bottom: 100px;letter-spacing: 1px;" class="text-center">
+			Consequatur vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+			</div>
+		<div class="col-md-3">
+			<i class="fa fa-globe" aria-hidden="true" style="font-size: 60px;"></i>
+			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
+				Lorem Ipsum dolor <br> sit amet sed do
+			</div>
+		</div>
+		<div class="col-md-3">
+			<i class="fa fa-cogs" aria-hidden="true" style="font-size: 60px;"></i>
+			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
+				Consectetur adipiscing elit <br> sed do eiusmod tempor
+			</div>
+		</div>
+		<div class="col-md-3">
+			<i class="fa fa-users" aria-hidden="true" style="font-size: 60px;"></i>
+			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
+				Lorem Ipsum dolor <br> sit amet sed do
+			</div>
+		</div>
+		<div class="col-md-3">
+			<i class="fa fa-pie-chart" aria-hidden="true" style="font-size: 60px;"></i>
+			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
+				Consectetur adipiscing elit <br> sed do eiusmod tempor
+			</div>
+		</div>
+	</div>
+</div>
+<div class="second text-center" style="padding: 30px;color: black; ">
+	<h3 style="margin: 30px auto 30px auto; letter-spacing: 2px; font-size: 30px; font-family: 'calibri';">OUR SERVICES</h3>
+	<hr style="width: 7%; border-color: black; margin-bottom: 70px;">
 	<div class="row " style="margin-top: 50px;">
 		<div class="col-md-6 row" style="padding-left: 120px;">
 			<img src="{{ asset('images/consult.png') }}"  class="col-md-6" alt="New York" style="border-radius: 5px; width: 30%; margin-right: 20px;">
@@ -99,33 +131,6 @@
 		</div>
 	</div>
 </div>
-<div class="third" style="background-color: #67CAC5; color: white; padding: 130px 100px; font-family: 'Nunito';">
-	<div class="row text-center" style="opacity: 0.9;">
-		<div class="col-md-3">
-			<i class="fa fa-globe" aria-hidden="true" style="font-size: 60px;"></i>
-			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
-				Lorem Ipsum dolor <br> sit amet sed do
-			</div>
-		</div>
-		<div class="col-md-3">
-			<i class="fa fa-cogs" aria-hidden="true" style="font-size: 60px;"></i>
-			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
-				Consectetur adipiscing elit <br> sed do eiusmod tempor
-			</div>
-		</div>
-		<div class="col-md-3">
-			<i class="fa fa-users" aria-hidden="true" style="font-size: 60px;"></i>
-			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
-				Lorem Ipsum dolor <br> sit amet sed do
-			</div>
-		</div>
-		<div class="col-md-3">
-			<i class="fa fa-pie-chart" aria-hidden="true" style="font-size: 60px;"></i>
-			<div style="margin-top: 20px; font-size: 17px; font-family: calibri;">
-				Consectetur adipiscing elit <br> sed do eiusmod tempor
-			</div>
-		</div>
-	</div>
-</div>
+
 
 @endsection

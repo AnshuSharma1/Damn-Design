@@ -22,6 +22,7 @@
 
 	.first{
 		padding: 70px 100px 100px 100px;
+		background-color: #ededed;
 	}	
 	.col-md-3{
 	padding: 0 5px;
@@ -29,6 +30,11 @@
 	
 	.first img{
 	border-radius: 3px;
+	}
+
+	.third{
+	padding: 50px;
+	background-color: white;
 	}
 @endsection
 
@@ -44,6 +50,47 @@
 	    Auis nostrud exercitation ullamco laboris nisi ut aliquip .
 	    </div>
     </div>
+</div>
+<div class="second" style="padding: 80px 15% 50px 15%; font-family: 'Nunito'; color: black;">
+	<div class="row text-center">
+		<div style=" font-family: 'Bungee'; font-size:30px; color: #FF5D5F;">Lorem Ipsum Dolor</div>
+		<div class="col-md-4 text-center" style="padding: 40px;" >
+			<img src="{{ asset('images/nike.png') }}" alt="New York" width="100%">
+			<div>
+				<h3 style="font-size: 18px; color: #222238; font-weight: bold; letter-spacing: 2px;" >
+					VENIAM
+				</h3>
+				<div>
+				Ut enim ad minim veniam.
+	   			Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 text-center" style="padding: 40px;" >
+			<img src="{{ asset('images/nike.png') }}" alt="New York" width="100%">
+			<div>
+				<h3 style="font-size: 18px; color: #222238; font-weight: bold; letter-spacing: 2px;" >
+					NOSTRUD
+				</h3>
+				<div>
+				Ut enim ad minim veniam.
+	   			Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 text-center" style="padding: 40px;"  >
+			<img src="{{ asset('images/nike.png') }}" alt="New York" width="100%">
+			<div>
+				<h3 style="font-size: 18px; color: #222238; font-weight: bold; letter-spacing: 2px;" >
+					EXERCIATION
+				</h3>
+				<div>
+				Ut enim ad minim veniam.
+	   			Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="first">
 	<h3 class="text-center" style="margin-top: 0; color: black; font-family: 'Nunito';">Lorem ipsum dolor sit amet, consectetur adipiscing</h3>

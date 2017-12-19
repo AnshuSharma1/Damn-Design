@@ -26,3 +26,7 @@ Route::get('/services', function () {
 Route::get('/brands', function () {
     return view('brands');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
