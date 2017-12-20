@@ -2,7 +2,7 @@
 
 @section('Style')
 	#jumbo {
-    background: url("{{ asset('images/work7.jpg') }}") no-repeat center center fixed;
+    background: url("{{ asset('images/white.jpg') }}") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,17 +44,17 @@
            {{ $done }}
         </h3>
 @endif
-<div id="jumbo" class="text-center" style="padding: 80px 50px 265px 50px; color: black; font-family: 'Nunito';">
+<div id="jumbo" class="text-center" style="padding: 80px 50px 320px 50px; color: black; font-family: 'Nunito';">
     <div style="font-size: 35px;">Lorem Ipsum Dolor</div>
     <div style="margin-top: 30px; font-size: 16px; padding: 5px 25%;">
     	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
     	<br>
-    	<a href="#" style="padding: 18px 40px; color: black; font-size: 15px; font-weight: bold; letter-spacing: 2px; border: 1px black solid; display: inline-block; margin-top: 50px;">
-			CLICK HERE
-		</a>
+    	<div style="font-size: 25px; margin-top: 20px;">
+    		(+91) 1234567890
+    	</div>
     </div>
 </div>
-<div class="first text-center">
+<div class="first text-center" id="contact">
 	<div style="font-family: 'Bungee'; color:  #FF5D5F; font-size: 25px;margin-bottom: 30px; ">
 		CONTACT US
 	</div>
