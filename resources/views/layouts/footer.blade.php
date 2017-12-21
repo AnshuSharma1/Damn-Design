@@ -1,43 +1,35 @@
 <footer class="footer-distributed" style="font-family: 'Nunito';">
-            <div class="footer-left">
-                <h3>Damn<span>Design</span></h3>
-                <p class="footer-links">
-                    <a href="#">Home</a>
-                    ·
-                    <a href="#">Contact</a>
-                    ·
-                    <a href="#">About</a>
-                    ·
-                    <a href="#">Brands</a>
-                    ·
-                    <a href="#">Services</a>
-                </p>
-                <p class="footer-company-name">Damn Design pvt ltd &copy; 2017</p>
-            </div>
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-map-marker"></i>
-                    <p><span>21 Revolution Street</span> Paris, France</p>
-                </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+1 555 123456</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="mailto:support@company.com">support@company.com</a></p>
-                </div>
-            </div>
-            <div class="footer-right" >
-                <p class="footer-company-about">
-                    <span>About the company</span>
-                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-                </p>
-                <div class="footer-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-            </div>
+    <div class="footer-left">
+        <h3>Damn<span>Design</span></h3>
+        <div style="margin-top: 20px; padding-right: 30%;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <p class="footer-links">
+            <a href="#">About</a>
+            <br>
+            <a href="#">Services</a>
+            <br>
+            <a href="#">Careers</a>
+        </p>
+    </div>
+    <div class="footer-center">
+       <div  style="margin-bottom: 20px; font-size: 17px;">
+           Sign up for the newsletter
+       </div>
+       <input type="email" name="email" width="100%" class="form-control" style="width: 50%; border-color: #374a68; border-width: 2px; margin-bottom: 20px;">
+       <button class="btn btn-primary">SIGN UP</button>
+    </div>
+    <div class="footer-right" >
+        <p class="footer-company-about">
+            <span>Connect With Us</span>
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/company/damn-design-pvt-ltd/"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:info@damn-design.com" style="margin: auto 20px;"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+        </div>
+    </div>
+    <div class="text-center" style="margin-top: 20px; color: #cccccc;">
+        Damn Design pvt ltd © 2017
+    </div>
  </footer>

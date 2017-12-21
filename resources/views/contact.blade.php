@@ -44,7 +44,7 @@
            {{ $done }}
         </h3>
 @endif
-<div id="jumbo" class="text-center" style="padding: 80px 50px 320px 50px; color: black; font-family: 'Nunito';">
+<div id="jumbo" class="text-center" style="padding: 110px 50px 350px 50px; color: black; font-family: 'Nunito';">
     <div style="font-size: 35px;">Lorem Ipsum Dolor</div>
     <div style="margin-top: 30px; font-size: 16px; padding: 5px 25%;">
     	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore

@@ -16,23 +16,30 @@
 
         <!--Styles -->
         <style type="text/css">
+            .nava{
+                color: black;
+            }
+
             .navbar{
-                border-radius: 0;
                 padding: 10px 60px 10px 50px; 
                 margin-bottom: 0;
+                border-radius: 0;
             }
             .navbar-brand{
                 font-family: 'bungee', 'cursive';
                 letter-spacing: 2px;
                 font-size: 25px;
-                color: white;
+                color: black;
                 padding: 14px 0px;
             }
             .navbar-nav li a{
                text-transform: uppercase;
                font-size: 14px;
                letter-spacing: 1px; 
-                font-weight: bolder;
+               font-weight: bolder;
+            }
+            .navbar-nav li a:hover{
+               background-color: transparent;
             }
             .navbar-toggle{
                 margin-right: 0; 
@@ -60,7 +67,7 @@
                 box-sizing: border-box;
                 width: 100%;
                 text-align: left;
-                font: bold 16px sans-serif;
+                font: 16px sans-serif;
                 padding: 55px 50px;
             }
 
@@ -102,6 +109,7 @@
                 line-height: 1.8;
                 text-decoration: none;
                 color:  inherit;
+                letter-spacing: 0.5px;
             }
 
             .footer-distributed .footer-company-name{
@@ -117,43 +125,9 @@
                 width: 35%;
             }
 
-            .footer-distributed .footer-center i{
-                background-color:  #33383b;
-                color: #ffffff;
-                font-size: 25px;
-                width: 38px;
-                height: 38px;
-                border-radius: 50%;
-                text-align: center;
-                line-height: 42px;
-                margin: 10px 15px;
-                vertical-align: middle;
+            .footer-center{
+                color: white;
             }
-
-            .footer-distributed .footer-center i.fa-envelope{
-                font-size: 17px;
-                line-height: 38px;
-            }
-
-            .footer-distributed .footer-center p{
-                display: inline-block;
-                color: #ffffff;
-                vertical-align: middle;
-                margin:0;
-            }
-
-            .footer-distributed .footer-center p span{
-                display:block;
-                font-weight: normal;
-                font-size:14px;
-                line-height:2;
-            }
-
-            .footer-distributed .footer-center p a{
-                color:  #5383d3;
-                text-decoration: none;;
-            }
-
 
             /* Footer Right */
 
@@ -247,9 +221,8 @@
             @yield('Style')
         </style>
     </head>
-    <body class="container-fluid" style="padding-top: 63px;">
+    <body class="container-fluid">
         @include('layouts.nav')
-
         @yield('content')
 
         @include('layouts.footer')

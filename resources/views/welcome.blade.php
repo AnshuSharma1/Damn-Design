@@ -1,34 +1,41 @@
 @extends('layouts.layout')
 
 @section('Style')
-  #jumbo {
-    background: url("{{ asset('images/work5.jpeg') }}") no-repeat center center fixed;
+
+    #jumbo {
+    background: url("{{ asset('images/5I3A6439.JPG') }}") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity:0.84;
     height: 100%;
     }
 
     .third{
     background-color: white;
     }
+
+    .collage .col-xs-4{
+      padding : 0;
+    }
+
+    .cr{
+    margin-top: 5%;
+    }
    
+   .collage .col-xs-12{
+     padding: 0;
+    }
+
+    .cmid .col-xs-12{
+    padding: 0 5%;
+  }
 @endsection
 
 @section('content')
-<div id="jumbo" style="padding: 130px 60px 200px 60px;color: white;  font-family: 'Dosis', sans-serif; font-size: larger;" class="text-center">
-    <div class="row">
-      <div class="col-md-3 text-left">
-        <h3 style="font-size: 35px; font-family: 'Raleway', sans-serif; font-weight: bold; letter-spacing: 2px;">Lorem Ipsum Dolor</h3>
-        <div style="margin-top: 30px; color: #ffe5f3; letter-spacing: 1px;">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          <br><br>
-           Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-      </div>
-    </div>
+<div id="jumbo" style="padding: 30% 0;">  
+  <div style="color: white;  font-family: 'Dosis', sans-serif; font-size: larger;" class="text-center">
+  </div>
 </div>
 
 <div id="first" class="row text-center" style="padding: 50px 50px 80px 50px;">
@@ -45,33 +52,53 @@
     </div>
     <br>
     <a href="#" style="padding: 18px 40px; background-color: #FF5D5F; color: white; border-radius: 50px; font-size: 16px; font-weight: bold; letter-spacing: 2px;">
-      CLICK HERE
+       About Us
     </a>
   </div>
 </div>
 
-<div id="second" style="margin-bottom: 100px; ">
-  <div class="row">
-    <div style="margin-left: -60px; ">
-      <div class="col-md-3 col-md-offset-2 text-right">
-        <img src="{{ asset('images/work1.jpg') }}" alt="New York" width="80%">
+<div id="second" style="margin-bottom: 8%; ">
+  <div style="padding: 30px 20%;">
+    <div class="row collage">
+      <div class="col-xs-4">
+        <div class="row">
+          <div class="col-xs-12">
+          <img src="{{ asset('images/work1.jpg') }}" alt="New York" width="100%">
+          </div>
+        </div>
+        <div class="row cr">
+          <div class="col-xs-12">
+          <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="100%">
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 text-left">
-        <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="80%" style="padding-left: 12px;">
+
+      <div class="col-xs-4 cmid">
+        <div class="row">
+          <div class="col-xs-12">
+          <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="100%">
+          </div>
+        </div>
+        <div class="row cr">
+          <div class="col-xs-12">
+          <img src="{{ asset('images/r4.jpeg') }}" alt="New York" width="100%">
+          </div>
+        </div>
       </div>
-      <div class="col-md-3">
-        <img src="{{ asset('images/work3.jpeg') }}" alt="New York" width="80%" style="margin-left: -57px;">
+
+      <div class="col-xs-4">
+        <div class="row">
+          <div class="col-xs-12">
+          <img src="{{ asset('images/work3.jpeg') }}" alt="New York" width="100%" >
+          </div>
+        </div>
+        <div class="row cr">
+          <div class="col-xs-12">
+          <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="100%" >
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 col-md-offset-2 text-right" style="margin-top: -70px;">
-        <img src="{{ asset('images/r1.jpeg') }}" alt="New York" width="80%">
-      </div>
-      <div class="col-md-3 text-left" style="margin-top: 10px;">
-        <img src="{{ asset('images/r4.jpeg') }}" alt="New York" width="80%" style="padding-left: 12px;">
-      </div>
-      <div class="col-md-3" style="margin-top: -70px;">
-        <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" width="80%" style="margin-left: -57px;">
-      </div>
-    </div>
+  </div>
   </div>
 </div>
 

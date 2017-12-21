@@ -17,7 +17,7 @@
     	top :0;
     	width : 100%;
     	padding-top: 150px;
-    	padding-bottom:280px;
+    	padding-bottom:330px;
 
 	}
 

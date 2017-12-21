@@ -22,7 +22,7 @@
 @endsection
 
 @section('content')
-<div id="jumbo" style="padding: 130px 0 35% 60px;color: white;  font-family: 'Nunito', sans-serif; font-size: larger;" class="text-right">
+<div id="jumbo" style="padding: 130px 0 40% 60px;color: white;  font-family: 'Nunito', sans-serif; font-size: larger;" class="text-right">
     <div class="layer">
     	<div style="font-size: 35px; font-family: 'Raleway', sans-serif; font-weight: bold; letter-spacing: 2px;">Lorem Ipsum Dolor
     	</div>
