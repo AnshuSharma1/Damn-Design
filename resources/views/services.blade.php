@@ -64,6 +64,14 @@
     font-family: 'Nunito';
   }
 
+  .second-main-hr{
+    border-color: #555; opacity: 0.5; margin-top: 7%; width: 30%;
+  }
+
+  .hrs{
+    margin:7% auto;
+  }
+
   .second-content{
     font-size: 15px; letter-spacing: 0px; line-height: 27px;
   }
@@ -121,6 +129,31 @@
       width: 90%;
     }
   } 
+
+
+   @media only screen and (max-width: 767px) {
+    .second-content-right, #second-row-2-content{
+      text-align: center;
+      padding: 5% 7%;
+    }
+
+    .content-right{
+      padding-right:0;
+    }
+
+    .second-hr{
+      margin: 5% auto;
+    }
+
+    .second-main-hr{
+    opacity:1;
+    }
+
+    .second-img{
+      margin: 4% auto 2% auto;
+    }
+
+  }
 
    
 @endsection
@@ -190,7 +223,7 @@
     </div>
   </div>
 
-  <hr style="border-color: #555; opacity: 0.5; margin-top: 7%; width: 30%;">
+  <hr class="second-main-hr">
 
   <div class="row" style="margin: 8% 0 6% 0;">
   	<div class="col-sm-6 text-left" id="second-row-2-content">
@@ -201,15 +234,15 @@
         </div>
     </div>
     <div class="col-sm-6">
-      <img src="{{ asset('images/work6.jpeg') }}" alt="New York">
+      <img src="{{ asset('images/work6.jpeg') }}" alt="New York" class="second-img">
     </div>    
   </div>
 
-  <hr style="border-color: #555; opacity: 0.5; margin-bottom: 6%; width: 30%;">
+  <hr class="second-main-hr hrs">
 
   <div class="row">
     <div class="col-sm-6">
-      <img src="{{ asset('images/pot2.jpeg') }}" alt="New York">
+      <img src="{{ asset('images/pot2.jpeg') }}" alt="New York" class="second-img">
     </div>
     <div class="col-sm-6 text-left second-content-right">
       <h2>Lorem Ipsum Dolor Amet</h2>
