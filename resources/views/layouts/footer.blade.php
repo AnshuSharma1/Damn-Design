@@ -1,7 +1,7 @@
 <footer class="footer-distributed" style="font-family: 'Nunito';">
     <div class="footer-left">
         <h3>Damn<span>Design</span></h3>
-        <div style="margin-top: 20px; padding-right: 30%;">
+        <div id="footerc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
         <p class="footer-links">
@@ -13,7 +13,7 @@
         </p>
     </div>
     <div class="footer-center">
-       <div  style="margin-bottom: 20px; font-size: 17px;">
+       <div style="margin-bottom: 20px; font-size: 17px;">
            Sign up for the newsletter
        </div>
        <input type="email" name="email" width="100%" class="form-control" style="width: 50%; border-color: #374a68; border-width: 2px; margin-bottom: 20px;">
@@ -25,7 +25,7 @@
         </p>
         <div class="footer-icons">
             <a href="https://www.linkedin.com/company/damn-design-pvt-ltd/"><i class="fa fa-linkedin"></i></a>
-            <a href="mailto:info@damn-design.com" style="margin: auto 20px;"><i class="fa fa-envelope"></i></a>
+            <a href="mailto:info@damn-design.com" style="margin: 0 20px auto 20px;"><i class="fa fa-envelope"></i></a>
             <a href="#"><i class="fa fa-pinterest"></i></a>
         </div>
     </div>

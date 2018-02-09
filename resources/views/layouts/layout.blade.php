@@ -127,6 +127,7 @@
 
             .footer-center{
                 color: white;
+                margin-left: 20px;
             }
 
             /* Footer Right */
@@ -172,6 +173,11 @@
                 margin-bottom: 5px;
             }
 
+            #footerc{
+                margin-top: 20px;
+            }
+
+           
 
             @media (max-width: 880px) {
 
@@ -189,6 +195,14 @@
                 }
 
                 .footer-distributed .footer-center i{
+                    margin-left: 0;
+                }
+
+                .footer-distributed .footer-center input{
+                    margin-left: 25%;
+                }
+
+                .footer-distributed .footer-center{
                     margin-left: 0;
                 }
 
@@ -217,6 +231,7 @@
                     }
                 
                 }
+
 
             @yield('Style')
         </style>
